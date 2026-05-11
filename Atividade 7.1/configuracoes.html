@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Configurações</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>JobConnect</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sistema.html">Sistema</a>
+        <a href="usuarios.html">Usuários</a>
+    </nav>
+
+    <div class="user-menu">
+        <img src="img/user.png" id="userIcon" alt="Usuário">
+
+        <div class="dropdown" id="dropdownMenu">
+            <a href="configuracoes.html">Configurações</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="card">
+        <h2>Configurações</h2>
+        <p>Área restrita do usuário.</p>
+        <p>Painel de configurações do sistema.</p>
+
+        <button onclick="logout()">Sair da Conta</button>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

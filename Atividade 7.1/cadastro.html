@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>JobConnect</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sistema.html">Sistema</a>
+        <a href="usuarios.html">Usuários</a>
+    </nav>
+
+    <div class="user-menu">
+        <img src="img/user.png" id="userIcon" alt="Usuário">
+
+        <div class="dropdown" id="dropdownMenu">
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="configuracoes.html">Configurações</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="card form-card">
+        <h2>Criar Conta</h2>
+
+        <input type="text" id="nome" placeholder="Nome">
+        <input type="email" id="email" placeholder="E-mail">
+        <input type="password" id="senha" placeholder="Senha">
+        <input type="text" id="area" placeholder="Área profissional">
+        <input type="text" id="cargo" placeholder="Cargo desejado">
+
+        <button onclick="cadastrar()">Cadastrar</button>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

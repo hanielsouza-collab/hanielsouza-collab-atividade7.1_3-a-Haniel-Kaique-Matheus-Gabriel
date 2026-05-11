@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>JobConnect</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>JobConnect</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sistema.html">Sistema</a>
+        <a href="usuarios.html">Usuários</a>
+    </nav>
+
+    <div class="user-menu">
+        <img src="img/user.png" id="userIcon" alt="Usuário">
+
+        <div class="dropdown" id="dropdownMenu">
+            <a href="login.html">Login</a>
+            <a href="cadastro.html">Cadastro</a>
+            <a href="configuracoes.html">Configurações</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <img src="img/banner.png" class="banner" alt="Banner">
+
+    <section class="card">
+        <h2>JobConnect</h2>
+        <p>Conectando talentos às melhores oportunidades do mercado.</p>
+        <a href="cadastro.html" class="btn">Começar Agora</a>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>

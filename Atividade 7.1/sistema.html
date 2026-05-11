@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Sistema</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>JobConnect</h1>
+
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sistema.html">Sistema</a>
+        <a href="usuarios.html">Usuários</a>
+    </nav>
+
+    <div class="user-menu">
+        <img src="img/user.png" id="userIcon" alt="Usuário">
+
+        <div class="dropdown" id="dropdownMenu">
+            <a href="configuracoes.html">Configurações</a>
+            <a href="#" onclick="logout()">Sair</a>
+        </div>
+    </div>
+</header>
+
+<main class="container">
+    <section class="card perfil">
+        <img src="img/user.png" class="perfil-img" alt="Perfil">
+
+        <h2 id="mostrarNome"></h2>
+        <p id="mostrarEmail"></p>
+        <p id="mostrarArea"></p>
+        <p id="mostrarCargo"></p>
+
+        <h3>Bem-vindo ao sistema</h3>
+    </section>
+</main>
+
+<script src="js/script.js"></script>
+</body>
+</html>
