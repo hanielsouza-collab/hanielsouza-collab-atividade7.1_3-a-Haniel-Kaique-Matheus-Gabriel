@@ -1,8 +1,7 @@
 # JobConnect
 
 ## Integrante
-Gabriel
-*(troque pelo seu nome ou coloque os nomes do grupo)*
+Haniel Sousa, Matheus Pereira, Kaique de Souza e Gabriel Henrique.
 
 ---
 
